@@ -11,12 +11,6 @@ body {
   color: #000;
 }
 
-ul,
-li {
-  margin: 0;
-  padding: 0;
-}
-
 .main-header {
   box-sizing: border-box;
   width: 100%;
@@ -35,10 +29,14 @@ li {
   list-style: none;
   display: flex;
   justify-content: flex-start;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-item {
+  margin: 0;
   margin-right: 20px;
+  padding: 0;
 }
 
 .nav-item:last-child {
